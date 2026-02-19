@@ -15,7 +15,7 @@ Low-Level Design is about translating high-level requirements into well-structur
 
 | # | Problem | Design Patterns | Status |
 |---|---------|----------------|--------|
-| 1 | [Parking Lot System](ParkingSystem/) | Singleton, Strategy, Inheritance | In Progress |
+| 1 | [Parking Lot System](ParkingSystem/) | Singleton, Strategy, Inheritance | Completed |
 
 ## Design Patterns Covered
 
