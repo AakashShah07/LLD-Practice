@@ -8,9 +8,11 @@ class ParkingFloor:
         self.spots: list[ParkingSpot] = []
 
     def add_spot(self, spot: ParkingSpot) -> None:
-        # TODO: implement
-        pass
+        self.spots.append(spot)
 
-    def find_available_spot(self, vehicle: Vehicle) -> ParkingSpot | None:
-        # TODO: implement - find a suitable available spot for the vehicle
-        pass
+    def get_available_spots(self, vehicle: Vehicle) -> list[ParkingSpot]:
+        return [spot for spot in self.spots if spot.is_available() and spot.can_fit(vehicle)]
+
+    def __str__(self):
+        available = sum(1 for s in self.spots if s.is_available())
+        return f"Floor {self.floor_id}: {available}/{len(self.spots)} spots available"

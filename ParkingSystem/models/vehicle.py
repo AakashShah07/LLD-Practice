@@ -7,6 +7,9 @@ class Vehicle(ABC):
         self.license_plate = license_plate
         self.vehicle_type = vehicle_type
 
+    def __str__(self):
+        return f"{self.vehicle_type.value} [{self.license_plate}]"
+
 
 class Car(Vehicle):
     def __init__(self, license_plate: str):
