@@ -17,6 +17,8 @@ Low-Level Design is about translating high-level requirements into well-structur
 |---|---------|----------------|--------|
 | 1 | [Parking Lot System](ParkingSystem/) | Singleton, Strategy, Inheritance | Completed |
 | 2 | Ticked Booking System | State, Observer | Completed   |
+| 3 | Shopping Cart | ER Diagram | Services | Completed |
+| 4 | Library Management System | Service | ER Diagram | Completed
 
 ## Design Patterns Covered
 
@@ -64,7 +66,7 @@ python main.py
 - [ ] Snake and Ladder
 - [ ] Vending Machine
 - [ ] Library Management System
-- [ ] BookMyShow (Movie Ticket Booking)
+- [x] BookMyShow (Movie Ticket Booking)
 - [ ] ATM System
 - [ ] Chess
 

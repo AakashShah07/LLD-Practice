@@ -1,7 +1,4 @@
-from enum import Enum
-
-
 class VehicleType(Enum):
-    BIKE = "BIKE"
-    CAR = "CAR"
-    TRUCK = "TRUCK"
+    BIKE = 1
+    CAR = 2
+    TRUCK = 3

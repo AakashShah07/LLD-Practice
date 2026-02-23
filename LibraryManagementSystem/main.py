@@ -14,6 +14,7 @@ class LibraryService:
 
 	def add_member(self, member) :
 		self.library.memebers[member.member_id] = member
+		
 
 	def issued_book(self, memeber_id, book_id):
 		member  =  self.library.members[member_id]
@@ -27,6 +28,8 @@ class LibraryService:
 
         print("No copy available")
         return None
+
+
 
     def return_book(self, copy_id, member_id):
         copy = self.library.copies[copy_id]

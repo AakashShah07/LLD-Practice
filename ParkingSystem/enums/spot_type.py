@@ -1,7 +1,4 @@
-from enum import Enum
-
-
 class SpotType(Enum):
-    BIKE = "BIKE"
-    COMPACT = "COMPACT"
-    LARGE = "LARGE"
+    SMALL = 1
+    MEDIUM = 2
+    LARGE = 3
